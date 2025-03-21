@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+writing bot_control.egg-info/PKG-INFO
+writing dependency_links to bot_control.egg-info/dependency_links.txt
+writing entry points to bot_control.egg-info/entry_points.txt
+writing requirements to bot_control.egg-info/requires.txt
+writing top-level names to bot_control.egg-info/top_level.txt
+reading manifest file 'bot_control.egg-info/SOURCES.txt'
+writing manifest file 'bot_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rahul/tirth_ws/install/bot_control/lib/python3.10/site-packages/bot-control.egg-link (link to .)
+Installing filter script to /home/rahul/tirth_ws/install/bot_control/lib/bot_control
+
+Installed /home/rahul/tirth_ws/build/bot_control
+running symlink_data
+symbolically linking /home/rahul/tirth_ws/build/bot_control/resource/bot_control -> /home/rahul/tirth_ws/install/bot_control/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/tirth_ws/build/bot_control/package.xml -> /home/rahul/tirth_ws/install/bot_control/share/bot_control
+symbolically linking /home/rahul/tirth_ws/build/bot_control/launch/filter.launch.py -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/launch
+symbolically linking /home/rahul/tirth_ws/build/bot_control/world/bot.world -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/world
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel.mtl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/center.mtl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/front_caster.dae -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/center.obj -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel.obj -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/base_link.dae -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/front_caster.obj -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel_r.dae -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/base_link.stl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/front_caster.mtl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel_l.dae -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/front_caster.stl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel_r.stl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/meshes/wheel_l.stl -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/meshes
+symbolically linking /home/rahul/tirth_ws/build/bot_control/urdf/bot.urdf -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/urdf
+symbolically linking /home/rahul/tirth_ws/build/bot_control/urdf/bot2.urdf -> /home/rahul/tirth_ws/install/bot_control/share/bot_control/urdf

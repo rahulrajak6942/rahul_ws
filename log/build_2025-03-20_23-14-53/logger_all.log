@@ -1,0 +1,316 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9382442e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f93823fc3a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f93823fc3a0>>, mixin_verb=('build',))
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.317s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rahul/tirth_ws-main'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_control) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_control' with type 'ros.ament_python' and name 'bot_control'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_description' with type 'ros.ament_python' and name 'bot_description'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_world' with type 'ros.ament_python' and name 'bot_world'
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rahul/tirth_ws-main/install
+[0.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/rahul/microros_ws/install
+[0.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/iron
+[0.377s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'bot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/tirth_ws-main/build/bot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/tirth_ws-main/install/bot_control', 'merge_install': False, 'path': '/home/rahul/tirth_ws-main/src/bot_control', 'symlink_install': True, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/tirth_ws-main/build/bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/tirth_ws-main/install/bot_description', 'merge_install': False, 'path': '/home/rahul/tirth_ws-main/src/bot_description', 'symlink_install': True, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'bot_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/tirth_ws-main/build/bot_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/tirth_ws-main/install/bot_world', 'merge_install': False, 'path': '/home/rahul/tirth_ws-main/src/bot_world', 'symlink_install': True, 'test_result_base': None}
+[0.454s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.455s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rahul/tirth_ws-main/src/bot_control' with build type 'ament_python'
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_control', 'ament_prefix_path')
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/ament_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/ament_prefix_path.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/ament_prefix_path.sh'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.466s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.467s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rahul/tirth_ws-main/src/bot_description' with build type 'ament_python'
+[0.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'ament_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/ament_prefix_path.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/ament_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.474s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.476s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rahul/tirth_ws-main/src/bot_world' with build type 'ament_python'
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_world', 'ament_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/ament_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/ament_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/ament_prefix_path.sh'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.483s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.814s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rahul/tirth_ws-main/src/bot_control'
+[0.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[0.821s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[1.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rahul/tirth_ws-main/src/bot_description'
+[1.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.170s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[1.171s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[1.507s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rahul/tirth_ws-main/src/bot_world'
+[1.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.523s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/rahul/catkin_ws/devel'
+[1.524s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.xml
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/urdf/bot.urdf
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/urdf/bot2.urdf
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel.mtl
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/center.mtl
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/front_caster.dae
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/center.obj
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel.obj
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/base_link.dae
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/front_caster.obj
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel_r.dae
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/base_link.stl
+[2.033s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/front_caster.mtl
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel_l.dae
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/front_caster.stl
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel_r.stl
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/meshes/wheel_l.stl
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/launch/control.launch.py
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/launch/spawn.launch.py
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/launch/rviz.launch.py
+[2.034s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_description/share/bot_description/world/spawn.world
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/tirth_ws-main/build/bot_description': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_description/build --no-deps symlink_data --force
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/ament_index/resource_index/packages/bot_control
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.xml
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/launch/filter.launch.py
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/world/bot.world
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel.mtl
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/center.mtl
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/front_caster.dae
+[2.040s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/center.obj
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel.obj
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/base_link.dae
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/front_caster.obj
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel_r.dae
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/base_link.stl
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/front_caster.mtl
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel_l.dae
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/front_caster.stl
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel_r.stl
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/meshes/wheel_l.stl
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/urdf/bot.urdf
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/share/bot_control/urdf/bot2.urdf
+[2.041s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_control/lib/bot_control/filter
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/tirth_ws-main/build/bot_control': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_control/build --no-deps symlink_data --force
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.xml
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/launch/world.launch.py
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/world/bot.world
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel.mtl
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/center.mtl
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/front_caster.dae
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/center.obj
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel.obj
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/base_link.dae
+[2.046s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/front_caster.obj
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel_r.dae
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/base_link.stl
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/front_caster.mtl
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel_l.dae
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/front_caster.stl
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel_r.stl
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes/wheel_l.stl
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/urdf/bot.urdf
+[2.047s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/urdf/bot2.urdf
+[2.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/tirth_ws-main/build/bot_world': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_world/build --no-deps symlink_data --force
+[2.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'pythonpath_develop')
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_description/share/bot_description/hook/pythonpath_develop.ps1'
+[2.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/tirth_ws-main/build/bot_description' returned '0': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_description/build --no-deps symlink_data --force
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/build/bot_description/share/bot_description/hook/pythonpath_develop.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_description/share/bot_description/hook/pythonpath_develop.sh'
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description' for CMake module files
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description' for CMake config files
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description/lib'
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description/bin'
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description/lib/pkgconfig/bot_description.pc'
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description/lib/python3.10/site-packages'
+[2.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'pythonpath')
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/pythonpath.ps1'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/pythonpath.dsv'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/hook/pythonpath.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_description/bin'
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.ps1'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.dsv'
+[2.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.bash'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_description/share/bot_description/package.zsh'
+[2.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/tirth_ws-main/install/bot_description/share/colcon-core/packages/bot_description)
+[2.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_control', 'pythonpath_develop')
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_control/share/bot_control/hook/pythonpath_develop.ps1'
+[2.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/tirth_ws-main/build/bot_control' returned '0': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_control/build --no-deps symlink_data --force
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/build/bot_control/share/bot_control/hook/pythonpath_develop.dsv'
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_control/share/bot_control/hook/pythonpath_develop.sh'
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control' for CMake module files
+[2.742s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control' for CMake config files
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control/lib'
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control/bin'
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control/lib/pkgconfig/bot_control.pc'
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control/lib/python3.10/site-packages'
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_control', 'pythonpath')
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/pythonpath.ps1'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/pythonpath.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/hook/pythonpath.sh'
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_control/bin'
+[2.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_control)
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.ps1'
+[2.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.dsv'
+[2.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.sh'
+[2.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.bash'
+[2.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_control/share/bot_control/package.zsh'
+[2.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/tirth_ws-main/install/bot_control/share/colcon-core/packages/bot_control)
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_world', 'pythonpath_develop')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_world/share/bot_world/hook/pythonpath_develop.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/build/bot_world/share/bot_world/hook/pythonpath_develop.dsv'
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/tirth_ws-main/build/bot_world' returned '0': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws-main/build/bot_world/build --no-deps symlink_data --force
+[2.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/build/bot_world/share/bot_world/hook/pythonpath_develop.sh'
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world' for CMake module files
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world' for CMake config files
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world/lib'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world/bin'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world/lib/pkgconfig/bot_world.pc'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages'
+[2.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_world', 'pythonpath')
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/pythonpath.ps1'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/pythonpath.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/hook/pythonpath.sh'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/tirth_ws-main/install/bot_world/bin'
+[2.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_world)
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.ps1'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.dsv'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.sh'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.bash'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/tirth_ws-main/install/bot_world/share/bot_world/package.zsh'
+[2.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/tirth_ws-main/install/bot_world/share/colcon-core/packages/bot_world)
+[2.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.756s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.769s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.769s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.769s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.784s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/tirth_ws-main/install/local_setup.ps1'
+[2.785s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/tirth_ws-main/install/_local_setup_util_ps1.py'
+[2.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/tirth_ws-main/install/setup.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/tirth_ws-main/install/local_setup.sh'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/tirth_ws-main/install/_local_setup_util_sh.py'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/tirth_ws-main/install/setup.sh'
+[2.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/tirth_ws-main/install/local_setup.bash'
+[2.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/tirth_ws-main/install/setup.bash'
+[2.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/tirth_ws-main/install/local_setup.zsh'
+[2.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/tirth_ws-main/install/setup.zsh'

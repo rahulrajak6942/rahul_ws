@@ -1,0 +1,40 @@
+[1.569s] Invoking command in '/home/rahul/tirth_ws/build/bot_description': PYTHONPATH=/home/rahul/tirth_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws/build/bot_description/build --no-deps symlink_data --force
+[1.893s] running develop
+[1.974s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[1.974s]   warnings.warn(
+[2.134s] running egg_info
+[2.134s] writing bot_description.egg-info/PKG-INFO
+[2.135s] writing dependency_links to bot_description.egg-info/dependency_links.txt
+[2.135s] writing entry points to bot_description.egg-info/entry_points.txt
+[2.135s] writing requirements to bot_description.egg-info/requires.txt
+[2.135s] writing top-level names to bot_description.egg-info/top_level.txt
+[2.136s] reading manifest file 'bot_description.egg-info/SOURCES.txt'
+[2.144s] writing manifest file 'bot_description.egg-info/SOURCES.txt'
+[2.175s] running build_ext
+[2.176s] Creating /home/rahul/tirth_ws/install/bot_description/lib/python3.10/site-packages/bot-description.egg-link (link to .)
+[2.176s] 
+[2.176s] Installed /home/rahul/tirth_ws/build/bot_description
+[2.176s] running symlink_data
+[2.177s] symbolically linking /home/rahul/tirth_ws/build/bot_description/resource/bot_description -> /home/rahul/tirth_ws/install/bot_description/share/ament_index/resource_index/packages
+[2.177s] symbolically linking /home/rahul/tirth_ws/build/bot_description/package.xml -> /home/rahul/tirth_ws/install/bot_description/share/bot_description
+[2.177s] symbolically linking /home/rahul/tirth_ws/build/bot_description/urdf/bot.urdf -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/urdf
+[2.177s] symbolically linking /home/rahul/tirth_ws/build/bot_description/urdf/bot2.urdf -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/urdf
+[2.177s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel.mtl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/center.mtl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/front_caster.dae -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/center.obj -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel.obj -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/base_link.dae -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/front_caster.obj -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.178s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel_r.dae -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.179s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/base_link.stl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.179s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/front_caster.mtl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.179s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel_l.dae -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.180s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/front_caster.stl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.180s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel_r.stl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.180s] symbolically linking /home/rahul/tirth_ws/build/bot_description/meshes/wheel_l.stl -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/meshes
+[2.180s] symbolically linking /home/rahul/tirth_ws/build/bot_description/launch/control.launch.py -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/launch
+[2.181s] symbolically linking /home/rahul/tirth_ws/build/bot_description/launch/spawn.launch.py -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/launch
+[2.181s] symbolically linking /home/rahul/tirth_ws/build/bot_description/launch/rviz.launch.py -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/launch
+[2.181s] symbolically linking /home/rahul/tirth_ws/build/bot_description/world/spawn.world -> /home/rahul/tirth_ws/install/bot_description/share/bot_description/world
+[2.232s] Invoked command in '/home/rahul/tirth_ws/build/bot_description' returned '0': PYTHONPATH=/home/rahul/tirth_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws/build/bot_description/build --no-deps symlink_data --force

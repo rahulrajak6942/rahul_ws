@@ -1,0 +1,21 @@
+[2.007s] Invoking command in '/home/rahul/rahulrajak_ws/src/bot_world': PYTHONPATH=/home/rahul/rahulrajak_ws/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/rahulrajak_ws/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bot_world build --build-base /home/rahul/rahulrajak_ws/build/bot_world/build install --record /home/rahul/rahulrajak_ws/build/bot_world/install.log --single-version-externally-managed install_data
+[2.457s] running egg_info
+[2.458s] writing ../../build/bot_world/bot_world.egg-info/PKG-INFO
+[2.458s] writing dependency_links to ../../build/bot_world/bot_world.egg-info/dependency_links.txt
+[2.458s] writing entry points to ../../build/bot_world/bot_world.egg-info/entry_points.txt
+[2.458s] writing requirements to ../../build/bot_world/bot_world.egg-info/requires.txt
+[2.459s] writing top-level names to ../../build/bot_world/bot_world.egg-info/top_level.txt
+[2.461s] reading manifest file '../../build/bot_world/bot_world.egg-info/SOURCES.txt'
+[2.462s] adding license file 'LICENSE'
+[2.463s] writing manifest file '../../build/bot_world/bot_world.egg-info/SOURCES.txt'
+[2.463s] running build
+[2.463s] running build_py
+[2.463s] running install
+[2.464s] running install_lib
+[2.466s] running install_data
+[2.467s] running install_egg_info
+[2.469s] removing '/home/rahul/rahulrajak_ws/install/bot_world/lib/python3.10/site-packages/bot_world-0.0.0-py3.10.egg-info' (and everything under it)
+[2.470s] Copying ../../build/bot_world/bot_world.egg-info to /home/rahul/rahulrajak_ws/install/bot_world/lib/python3.10/site-packages/bot_world-0.0.0-py3.10.egg-info
+[2.471s] running install_scripts
+[2.501s] writing list of installed files to '/home/rahul/rahulrajak_ws/build/bot_world/install.log'
+[2.558s] Invoked command in '/home/rahul/rahulrajak_ws/src/bot_world' returned '0': PYTHONPATH=/home/rahul/rahulrajak_ws/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/rahulrajak_ws/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bot_world build --build-base /home/rahul/rahulrajak_ws/build/bot_world/build install --record /home/rahul/rahulrajak_ws/build/bot_world/install.log --single-version-externally-managed install_data

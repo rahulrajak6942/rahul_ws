@@ -1,0 +1,38 @@
+[1.565s] Invoking command in '/home/rahul/tirth_ws/build/bot_world': PYTHONPATH=/home/rahul/tirth_ws/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws/build/bot_world/build --no-deps symlink_data --force
+[1.885s] running develop
+[1.966s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[1.967s]   warnings.warn(
+[2.131s] running egg_info
+[2.131s] writing bot_world.egg-info/PKG-INFO
+[2.132s] writing dependency_links to bot_world.egg-info/dependency_links.txt
+[2.132s] writing entry points to bot_world.egg-info/entry_points.txt
+[2.132s] writing requirements to bot_world.egg-info/requires.txt
+[2.132s] writing top-level names to bot_world.egg-info/top_level.txt
+[2.134s] reading manifest file 'bot_world.egg-info/SOURCES.txt'
+[2.135s] writing manifest file 'bot_world.egg-info/SOURCES.txt'
+[2.169s] running build_ext
+[2.169s] Creating /home/rahul/tirth_ws/install/bot_world/lib/python3.10/site-packages/bot-world.egg-link (link to .)
+[2.171s] 
+[2.171s] Installed /home/rahul/tirth_ws/build/bot_world
+[2.171s] running symlink_data
+[2.171s] symbolically linking /home/rahul/tirth_ws/build/bot_world/resource/bot_world -> /home/rahul/tirth_ws/install/bot_world/share/ament_index/resource_index/packages
+[2.171s] symbolically linking /home/rahul/tirth_ws/build/bot_world/package.xml -> /home/rahul/tirth_ws/install/bot_world/share/bot_world
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/launch/world.launch.py -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/launch
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/world/bot.world -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/world
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel.mtl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/center.mtl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/front_caster.dae -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/center.obj -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.172s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel.obj -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/base_link.dae -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/front_caster.obj -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel_r.dae -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/base_link.stl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/front_caster.mtl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel_l.dae -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/front_caster.stl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel_r.stl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.173s] symbolically linking /home/rahul/tirth_ws/build/bot_world/meshes/wheel_l.stl -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/meshes
+[2.174s] symbolically linking /home/rahul/tirth_ws/build/bot_world/urdf/bot.urdf -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/urdf
+[2.174s] symbolically linking /home/rahul/tirth_ws/build/bot_world/urdf/bot2.urdf -> /home/rahul/tirth_ws/install/bot_world/share/bot_world/urdf
+[2.237s] Invoked command in '/home/rahul/tirth_ws/build/bot_world' returned '0': PYTHONPATH=/home/rahul/tirth_ws/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rahul/tirth_ws/build/bot_world/build --no-deps symlink_data --force

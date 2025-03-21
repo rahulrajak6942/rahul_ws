@@ -1,0 +1,49 @@
+[1.586s] Invoking command in '/home/rahul/tirth_ws-main/build/bot_world': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rahul/tirth_ws-main/build/bot_world/build
+[1.906s] running develop
+[1.988s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[1.988s]   warnings.warn(
+[2.148s] Removing /home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages/bot-world.egg-link (link to .)
+[2.197s] Invoked command in '/home/rahul/tirth_ws-main/build/bot_world' returned '0': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rahul/tirth_ws-main/build/bot_world/build
+[2.199s] Invoking command in '/home/rahul/tirth_ws-main/src/bot_world': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bot_world build --build-base /home/rahul/tirth_ws-main/build/bot_world/build install --record /home/rahul/tirth_ws-main/build/bot_world/install.log --single-version-externally-managed install_data --force
+[2.526s] running egg_info
+[2.526s] writing ../../build/bot_world/bot_world.egg-info/PKG-INFO
+[2.527s] writing dependency_links to ../../build/bot_world/bot_world.egg-info/dependency_links.txt
+[2.527s] writing entry points to ../../build/bot_world/bot_world.egg-info/entry_points.txt
+[2.527s] writing requirements to ../../build/bot_world/bot_world.egg-info/requires.txt
+[2.527s] writing top-level names to ../../build/bot_world/bot_world.egg-info/top_level.txt
+[2.529s] reading manifest file '../../build/bot_world/bot_world.egg-info/SOURCES.txt'
+[2.530s] adding license file 'LICENSE'
+[2.530s] writing manifest file '../../build/bot_world/bot_world.egg-info/SOURCES.txt'
+[2.530s] running build
+[2.530s] running build_py
+[2.531s] running install
+[2.531s] running install_lib
+[2.532s] creating /home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages/bot_world
+[2.532s] copying /home/rahul/tirth_ws-main/build/bot_world/build/lib/bot_world/__init__.py -> /home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages/bot_world
+[2.533s] byte-compiling /home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages/bot_world/__init__.py to __init__.cpython-310.pyc
+[2.533s] running install_data
+[2.533s] copying resource/bot_world -> /home/rahul/tirth_ws-main/install/bot_world/share/ament_index/resource_index/packages
+[2.533s] copying package.xml -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world
+[2.533s] copying launch/world.launch.py -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/launch
+[2.534s] copying world/bot.world -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/world
+[2.534s] copying meshes/wheel.mtl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.534s] copying meshes/center.mtl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.534s] copying meshes/front_caster.dae -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.535s] copying meshes/center.obj -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.535s] copying meshes/wheel.obj -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.535s] copying meshes/base_link.dae -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.536s] copying meshes/front_caster.obj -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.537s] copying meshes/wheel_r.dae -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.537s] copying meshes/base_link.stl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.538s] copying meshes/front_caster.mtl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.538s] copying meshes/wheel_l.dae -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.539s] copying meshes/front_caster.stl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.539s] copying meshes/wheel_r.stl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.539s] copying meshes/wheel_l.stl -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/meshes
+[2.539s] copying urdf/bot.urdf -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/urdf
+[2.539s] copying urdf/bot2.urdf -> /home/rahul/tirth_ws-main/install/bot_world/share/bot_world/urdf
+[2.540s] running install_egg_info
+[2.542s] Copying ../../build/bot_world/bot_world.egg-info to /home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages/bot_world-0.0.0-py3.10.egg-info
+[2.543s] running install_scripts
+[2.572s] writing list of installed files to '/home/rahul/tirth_ws-main/build/bot_world/install.log'
+[2.609s] Invoked command in '/home/rahul/tirth_ws-main/src/bot_world' returned '0': PYTHONPATH=/home/rahul/tirth_ws-main/build/bot_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/tirth_ws-main/install/bot_world/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bot_world build --build-base /home/rahul/tirth_ws-main/build/bot_world/build install --record /home/rahul/tirth_ws-main/build/bot_world/install.log --single-version-externally-managed install_data --force
